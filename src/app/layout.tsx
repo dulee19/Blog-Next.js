@@ -26,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    // @ts-ignore
+
     <ClerkProvider>
       <html lang="en" suppressHydrationWarning>
         <body
